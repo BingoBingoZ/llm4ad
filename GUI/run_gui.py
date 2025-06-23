@@ -606,7 +606,7 @@ if __name__ == '__main__':
     root.geometry("1500x900")
     root.protocol("WM_DELETE_WINDOW", exit_run)
 
-    root.iconbitmap('./image/icon.ico')
+    # root.iconbitmap('./image/icon.ico')
 
     style = tkttk.Style()
     style.configure("TLabelframe.Label", font=('Helvetica', 15))
