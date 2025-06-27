@@ -150,7 +150,7 @@ class JSSPEvaluation(Evaluation):
                 next_operation = all_operations[0]
             else:
                 # Determine the next operation to schedule
-                next_operation = eva({'machine_status': machine_status, 'job_status': job_status}, feasible_operations) #LLM写的
+                next_operation = eva({'machine_status': machine_status, 'job_status': job_status}, feasible_operations)
 
             # Schedule the next operation
             job_id, machine_id, processing_time = next_operation
