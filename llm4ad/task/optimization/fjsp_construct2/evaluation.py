@@ -57,9 +57,9 @@ class FJSPEvaluation(Evaluation):
     #              **kwargs):
     def __init__(self,
             timeout_seconds=20,
-            n_instance=20,
-            n_jobs=10,
-            n_machines=5,
+            n_instance=16,
+            n_jobs=50,
+            n_machines=10,
             **kwargs):
         """
         Args:

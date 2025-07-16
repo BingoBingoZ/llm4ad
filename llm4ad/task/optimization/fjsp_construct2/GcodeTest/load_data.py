@@ -73,6 +73,6 @@ def print_fjsp_instance(processing_times, n_jobs, n_machines):
                 print(f"    机器 {m_id}: {p_time}时间单位")
 
 # if __name__ == "__main__":
-#     filepath='/home/zgb/llm4ad/llm4ad/task/optimization/fjsp_construct2/GcodeTest/data_test/Public/Mk01.fjs'
+#     filepath='/home/zgb/llm4ad/llm4ad/task/optimization/fjsp_construct2/GcodeTest/data_test/Public/v_la08.fjs'
 #     processing_times, n_jobs, n_machines = load_fjsp_data(filepath)
 #     print_fjsp_instance(processing_times, n_jobs, n_machines)
